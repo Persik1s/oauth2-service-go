@@ -1,0 +1,34 @@
+{
+  "logger": {
+    "mode": "dev"
+  },
+  "application": {
+    "client_id": 1
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 2001
+  },
+  "postgres": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "user": "root",
+    "password": "root",
+    "database": "users"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "database": 0
+  },
+  "token": {
+    "access": 1200,
+    "refresh": 1728000,
+    "session": 1728000
+  },
+  "oauth_google": {
+    "client_id": "None",
+    "client_secret": "None",
+    "redirect_uri" : "http://127.0.0.1:2001/api/v1/oauth/callback"
+  }
+}
